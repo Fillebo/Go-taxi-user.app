@@ -3,12 +3,15 @@ import './header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons'; // Import the hamburger menu icon
 
+
+
 function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
   
     const handleMenuClick = () => {
       setIsMenuOpen(!isMenuOpen); // Toggle the menu state
     };
+    console.log(Header)
   
     return (
       <header className="header">
@@ -30,4 +33,7 @@ function Header() {
     );
   }
 
+
 export default Header;
+
+
