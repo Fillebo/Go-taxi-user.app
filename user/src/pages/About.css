@@ -1,0 +1,20 @@
+.container {
+    /* display: flex;
+    flex-wrap: wrap; Enable wrapping to fit more items */
+    min-height: 100vh;
+  }
+  
+  .left-content {
+    margin-right: auto; /* Push the left content to the left */
+    width: 25%; /* Adjust width as needed */
+    border: 1px solid black;
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  
+  .right-content {
+    margin-left: auto; /* Push the right content to the right */
+    width: 25%; /* Adjust width as needed */
+    border: 1px solid black;
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  

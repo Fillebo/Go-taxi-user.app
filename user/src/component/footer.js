@@ -1,5 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {Link} from 'react-router-dom'
 import { faFacebook, faTwitter, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import './footer.css'; // Import your CSS file for footer styling
 
@@ -16,10 +17,9 @@ function Footer() {
         <div className="footer-section">
           <h2>Quick Links</h2>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+          <li><a href="/About">About</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/Contact">Contact</a></li>
           </ul>
         </div>
         <div className="footer-section">
