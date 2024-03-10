@@ -6,57 +6,39 @@ body, html {
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Centrera vertikalt */
+  align-items: center; 
   padding: 10px 50px;
   background-color: #f8f8f8;
-  width: 100%; /* Huvudet täcker hela bredden av skärmen */
+  width: 100%; 
 }
 
 .logo {
-  font-weight: bold; /* För att framhäva logotypen */
+  font-weight: bold; 
 }
 
 .nav-links {
   display: flex;
-  gap: 20px; /* Avstånd mellan länkarna */
+  gap: 20px; 
 }
 
 .nav-links a {
-  text-decoration: none; /* Ta bort understrykning från länkar */
-  color: #333; /* Färg för länkar */
-}
+  text-decoration: none; 
+  color: #333; 
 
 .login, .signup {
   padding: 8px 16px;
-  border-radius: 4px; /* Runda kanter på logga in och registrera dig länkar */
+  border-radius: 4px; 
 }
 
 .login {
-  background-color: #f3d030; /* Blå bakgrundsfärg för Logga in */
-  color: white; /* Vit textfärg för Logga in */
+  background-color: #f3d030; 
+  color: white; 
 }
 
 .signup {
-  color: white; /* Vit textfärg för Registrera dig */
-}
-
-
-/* .navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 50px;
-  background-color: #f8f8f8;
-}
-
-.login, .signup {
-  padding: 10px 20px;
   color: white; 
-  border-radius: 20px;
 }
 
-.login {
-  background-color: rgb(246, 187, 78); 
-} */
 
 
 .navbar a, .navbar .logo {
